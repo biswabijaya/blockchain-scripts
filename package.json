@@ -1,0 +1,28 @@
+{
+  "name": "blockchain-scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": {
+    "name": "Biswabijaya Samal",
+    "url": "https://github.com/biswabijaya"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/biswabijaya/blockchain-scripts"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@ethersproject/abi": "^5.3.1",
+    "abi-decoder": "^2.4.0",
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0",
+    "ethers": "^5.3.1",
+    "fs": "0.0.1-security",
+    "tabletojson": "^2.0.6"
+  }
+}
